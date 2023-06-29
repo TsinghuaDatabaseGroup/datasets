@@ -1,0 +1,1 @@
+CREATE TABLE House_Rent_Dataset (id INT, Posted_On TIMESTAMP, BHK INT, Rent INT, Size INT, Floor VARCHAR, Area_Type VARCHAR, Area_Locality VARCHAR, City VARCHAR, Furnishing_Status VARCHAR, Tenant_Preferred VARCHAR, Bathroom INT, Point_of_Contact VARCHAR);

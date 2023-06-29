@@ -1,0 +1,10 @@
+https://dbgroup.cs.tsinghua.edu.cn/datasets/energy/GEF2012-wind-forecasting/benchmark.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/energy/GEF2012-wind-forecasting/test.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/energy/GEF2012-wind-forecasting/train.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/energy/GEF2012-wind-forecasting/windforecasts_wf1.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/energy/GEF2012-wind-forecasting/windforecasts_wf2.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/energy/GEF2012-wind-forecasting/windforecasts_wf3.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/energy/GEF2012-wind-forecasting/windforecasts_wf4.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/energy/GEF2012-wind-forecasting/windforecasts_wf5.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/energy/GEF2012-wind-forecasting/windforecasts_wf6.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/energy/GEF2012-wind-forecasting/windforecasts_wf7.csv

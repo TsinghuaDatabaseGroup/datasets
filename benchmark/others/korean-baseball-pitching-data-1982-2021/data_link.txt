@@ -1,0 +1,1 @@
+https://dbgroup.cs.tsinghua.edu.cn/datasets/others/korean-baseball-pitching-data-1982-2021/kbopitchingdata.csv

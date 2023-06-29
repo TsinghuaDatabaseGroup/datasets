@@ -1,0 +1,3 @@
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/walmart-recruiting-sales-in-stormy-weather/key.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/walmart-recruiting-sales-in-stormy-weather/train.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/walmart-recruiting-sales-in-stormy-weather/weather.csv

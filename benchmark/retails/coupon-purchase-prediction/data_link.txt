@@ -1,0 +1,6 @@
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/coupon-purchase-prediction/coupon_area_train.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/coupon-purchase-prediction/coupon_detail_train.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/coupon-purchase-prediction/coupon_list_train.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/coupon-purchase-prediction/coupon_visit_train.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/coupon-purchase-prediction/prefecture_locations.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/coupon-purchase-prediction/user_list.csv

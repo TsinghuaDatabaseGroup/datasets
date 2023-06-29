@@ -1,0 +1,45 @@
+# start sql code
+# output table name: sql_table
+
+select
+    `id` as id_1,
+    `Time_submitted` as reviews_Time_submitted_original_0,
+    `id` as reviews_id_original_1,
+    `Total_thumbsup` as reviews_Total_thumbsup_original_2,
+    `Rating` as reviews_Rating_original_3,
+    `Reply` as reviews_Reply_original_4,
+    `Review` as reviews_Review_original_5,
+    `Rating` as reviews_Rating_combine_6,
+    `Reply` as reviews_Reply_combine_6,
+    case when !isnull(at(`Rating`, 0)) over reviews_Reply_Time_submitted_0s_2d_200 then count_where(`Rating`, `Rating` = at(`Rating`, 0)) over reviews_Reply_Time_submitted_0s_2d_200 else null end as reviews_Rating_window_count_7,
+    case when !isnull(at(`Rating`, 0)) over reviews_Reply_Time_submitted_0s_7d_200 then count_where(`Rating`, `Rating` = at(`Rating`, 0)) over reviews_Reply_Time_submitted_0s_7d_200 else null end as reviews_Rating_window_count_8,
+    distinct_count(`Rating`) over reviews_Reply_Time_submitted_0_10_ as reviews_Rating_window_unique_count_9,
+    distinct_count(`Review`) over reviews_Reply_Time_submitted_0s_64d_200 as reviews_Review_window_unique_count_10,
+    distinct_count(`Review`) over reviews_Reply_Time_submitted_0s_7d_200 as reviews_Review_window_unique_count_11,
+    distinct_count(`Rating`) over reviews_Reply_Time_submitted_0s_10h_200 as reviews_Rating_window_unique_count_12,
+    fz_top1_ratio(`Review`) over reviews_Reply_Time_submitted_0s_64d_200 as reviews_Review_window_top1_ratio_13,
+    fz_top1_ratio(`Review`) over reviews_Reply_Time_submitted_0s_7d_200 as reviews_Review_window_top1_ratio_14,
+    case when !isnull(at(`Rating`, 0)) over reviews_Review_Time_submitted_0s_64d_100 then count_where(`Rating`, `Rating` = at(`Rating`, 0)) over reviews_Review_Time_submitted_0s_64d_100 else null end as reviews_Rating_window_count_15,
+    case when !isnull(at(`Rating`, 0)) over reviews_Review_Time_submitted_0s_14d_200 then count_where(`Rating`, `Rating` = at(`Rating`, 0)) over reviews_Review_Time_submitted_0s_14d_200 else null end as reviews_Rating_window_count_16,
+    distinct_count(`Rating`) over reviews_Review_Time_submitted_0_10_ as reviews_Rating_window_unique_count_17,
+    distinct_count(`Rating`) over reviews_Review_Time_submitted_0s_2d_100 as reviews_Rating_window_unique_count_18,
+    case when !isnull(at(`Review`, 0)) over reviews_Reply_Time_submitted_0s_64d_100 then count_where(`Review`, `Review` = at(`Review`, 0)) over reviews_Reply_Time_submitted_0s_64d_100 else null end as reviews_Review_window_count_19,
+    case when !isnull(at(`Review`, 0)) over reviews_Reply_Time_submitted_0s_5h_100 then count_where(`Review`, `Review` = at(`Review`, 0)) over reviews_Reply_Time_submitted_0s_5h_100 else null end as reviews_Review_window_count_20,
+    distinct_count(`Review`) over reviews_Rating_Time_submitted_0s_64d_100 as reviews_Review_window_unique_count_21,
+    fz_top1_ratio(`Review`) over reviews_Rating_Time_submitted_0_10_ as reviews_Review_window_top1_ratio_22,
+    distinct_count(`Review`) over reviews_Rating_Time_submitted_0_10_ as reviews_Review_window_unique_count_23
+from
+    `reviews`
+    window reviews_Reply_Time_submitted_0s_2d_200 as (partition by `Reply` order by `Time_submitted` rows_range between 2d open preceding and 0s preceding MAXSIZE 200),
+    reviews_Reply_Time_submitted_0s_7d_200 as (partition by `Reply` order by `Time_submitted` rows_range between 7d open preceding and 0s preceding MAXSIZE 200),
+    reviews_Reply_Time_submitted_0_10_ as (partition by `Reply` order by `Time_submitted` rows between 10 open preceding and 0 preceding),
+    reviews_Reply_Time_submitted_0s_64d_200 as (partition by `Reply` order by `Time_submitted` rows_range between 64d open preceding and 0s preceding MAXSIZE 200),
+    reviews_Reply_Time_submitted_0s_10h_200 as (partition by `Reply` order by `Time_submitted` rows_range between 10h open preceding and 0s preceding MAXSIZE 200),
+    reviews_Review_Time_submitted_0s_64d_100 as (partition by `Review` order by `Time_submitted` rows_range between 64d open preceding and 0s preceding MAXSIZE 100),
+    reviews_Review_Time_submitted_0s_14d_200 as (partition by `Review` order by `Time_submitted` rows_range between 14d open preceding and 0s preceding MAXSIZE 200),
+    reviews_Review_Time_submitted_0_10_ as (partition by `Review` order by `Time_submitted` rows between 10 open preceding and 0 preceding),
+    reviews_Review_Time_submitted_0s_2d_100 as (partition by `Review` order by `Time_submitted` rows_range between 2d open preceding and 0s preceding MAXSIZE 100),
+    reviews_Reply_Time_submitted_0s_64d_100 as (partition by `Reply` order by `Time_submitted` rows_range between 64d open preceding and 0s preceding MAXSIZE 100),
+    reviews_Reply_Time_submitted_0s_5h_100 as (partition by `Reply` order by `Time_submitted` rows_range between 5h open preceding and 0s preceding MAXSIZE 100),
+    reviews_Rating_Time_submitted_0s_64d_100 as (partition by `Rating` order by `Time_submitted` rows_range between 64d open preceding and 0s preceding MAXSIZE 100),
+    reviews_Rating_Time_submitted_0_10_ as (partition by `Rating` order by `Time_submitted` rows between 10 open preceding and 0 preceding);

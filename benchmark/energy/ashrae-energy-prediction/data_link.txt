@@ -1,0 +1,5 @@
+https://dbgroup.cs.tsinghua.edu.cn/datasets/energy/ashrae-energy-prediction/building_metadata.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/energy/ashrae-energy-prediction/test.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/energy/ashrae-energy-prediction/train.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/energy/ashrae-energy-prediction/weather_test.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/energy/ashrae-energy-prediction/weather_train.csv

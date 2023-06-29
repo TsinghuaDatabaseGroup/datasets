@@ -1,0 +1,2 @@
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/rossmann-store-sales/store.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/rossmann-store-sales/train.csv

@@ -1,0 +1,3 @@
+https://dbgroup.cs.tsinghua.edu.cn/datasets/health/big-data-derby-2022/nyra_race_table.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/health/big-data-derby-2022/nyra_start_table.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/health/big-data-derby-2022/nyra_tracking_table.csv

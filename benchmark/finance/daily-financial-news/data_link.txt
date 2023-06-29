@@ -1,0 +1,2 @@
+https://dbgroup.cs.tsinghua.edu.cn/datasets/finance/daily-financial-news/raw_analyst_ratings.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/finance/daily-financial-news/raw_partner_headlines.csv

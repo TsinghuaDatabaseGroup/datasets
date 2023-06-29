@@ -1,0 +1,6 @@
+https://dbgroup.cs.tsinghua.edu.cn/datasets/others/talkingdata-mobile-user-demographics/app_events.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/others/talkingdata-mobile-user-demographics/app_labels.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/others/talkingdata-mobile-user-demographics/events.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/others/talkingdata-mobile-user-demographics/gender_age_train.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/others/talkingdata-mobile-user-demographics/label_categories.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/others/talkingdata-mobile-user-demographics/phone_brand_device_model.csv

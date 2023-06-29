@@ -1,0 +1,7 @@
+https://dbgroup.cs.tsinghua.edu.cn/datasets/meteorology/historicalweatherdataforindiancities/Bangalore_1990_2022_BangaloreCity.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/meteorology/historicalweatherdataforindiancities/Chennai_1990_2022_Madras.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/meteorology/historicalweatherdataforindiancities/Delhi_NCR_1990_2022_Safdarjung.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/meteorology/historicalweatherdataforindiancities/Lucknow_1990_2022.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/meteorology/historicalweatherdataforindiancities/Mumbai_1990_2022_Santacruz.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/meteorology/historicalweatherdataforindiancities/Rajasthan_1990_2022_Jodhpur.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/meteorology/historicalweatherdataforindiancities/Station_GeoLocation_Longitute_Latitude_Elevation_EPSG_4326.csv

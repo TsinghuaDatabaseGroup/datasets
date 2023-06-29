@@ -1,0 +1,2 @@
+https://dbgroup.cs.tsinghua.edu.cn/datasets/others/expedia-hotel-recommendations/destinations.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/others/expedia-hotel-recommendations/train.csv

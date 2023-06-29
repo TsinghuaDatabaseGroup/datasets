@@ -1,0 +1,1 @@
+CREATE TABLE ds_salaries (id INT, work_year INT, experience_level VARCHAR, employment_type VARCHAR, job_title VARCHAR, salary INT, salary_currency VARCHAR, salary_in_usd INT, employee_residence VARCHAR, remote_ratio INT, company_location VARCHAR, company_size VARCHAR);

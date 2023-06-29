@@ -1,0 +1,6 @@
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/favorita-grocery-sales-forecasting/holidays_events.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/favorita-grocery-sales-forecasting/items.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/favorita-grocery-sales-forecasting/oil.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/favorita-grocery-sales-forecasting/stores.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/favorita-grocery-sales-forecasting/train.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/favorita-grocery-sales-forecasting/transactions.csv

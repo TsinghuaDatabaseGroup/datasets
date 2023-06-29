@@ -1,0 +1,3 @@
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/m5-forecasting-uncertainty/calendar.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/m5-forecasting-uncertainty/sales_train_evaluation.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/m5-forecasting-uncertainty/sell_prices.csv

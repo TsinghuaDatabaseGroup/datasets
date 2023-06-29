@@ -1,0 +1,5 @@
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/store-sales-time-series-forecasting/holidays_events.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/store-sales-time-series-forecasting/main.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/store-sales-time-series-forecasting/oil.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/store-sales-time-series-forecasting/stores.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/store-sales-time-series-forecasting/transactions.csv

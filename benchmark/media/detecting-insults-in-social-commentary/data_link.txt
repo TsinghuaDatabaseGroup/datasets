@@ -1,0 +1,1 @@
+https://dbgroup.cs.tsinghua.edu.cn/datasets/media/detecting-insults-in-social-commentary/impermium_verification_labels.csv
