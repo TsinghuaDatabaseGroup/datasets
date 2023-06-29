@@ -1,0 +1,1 @@
+CREATE TABLE train (datetime TIMESTAMP, season INT, holiday INT, workingday INT, weather INT, temp DOUBLE PRECISION, atemp DOUBLE PRECISION, humidity INT, windspeed DOUBLE PRECISION, casual INT, registered INT, count INT);

@@ -1,0 +1,4 @@
+https://dbgroup.cs.tsinghua.edu.cn/datasets/others/airbnb-recruiting-new-user-bookings/age_gender_bkts.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/others/airbnb-recruiting-new-user-bookings/countries.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/others/airbnb-recruiting-new-user-bookings/sessions.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/others/airbnb-recruiting-new-user-bookings/train_users_2.csv

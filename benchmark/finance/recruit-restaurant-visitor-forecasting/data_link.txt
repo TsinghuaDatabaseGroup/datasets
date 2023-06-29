@@ -1,0 +1,7 @@
+https://dbgroup.cs.tsinghua.edu.cn/datasets/finance/recruit-restaurant-visitor-forecasting/air_reserve.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/finance/recruit-restaurant-visitor-forecasting/air_store_info.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/finance/recruit-restaurant-visitor-forecasting/air_visit_data.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/finance/recruit-restaurant-visitor-forecasting/date_info.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/finance/recruit-restaurant-visitor-forecasting/hpg_reserve.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/finance/recruit-restaurant-visitor-forecasting/hpg_store_info.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/finance/recruit-restaurant-visitor-forecasting/store_id_relation.csv

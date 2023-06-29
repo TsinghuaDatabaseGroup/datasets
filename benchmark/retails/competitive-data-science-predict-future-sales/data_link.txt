@@ -1,0 +1,5 @@
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/competitive-data-science-predict-future-sales/item_categories.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/competitive-data-science-predict-future-sales/items.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/competitive-data-science-predict-future-sales/sales_train.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/competitive-data-science-predict-future-sales/shops.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/competitive-data-science-predict-future-sales/test.csv

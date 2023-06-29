@@ -1,0 +1,48 @@
+# start sql code
+# output table name: sql_table
+
+select
+    `datetime` as datetime_1,
+    `datetime` as train_datetime_original_0,
+    `count` as train_count_original_2,
+    `atemp` as train_atemp_original_3,
+    `casual` as train_casual_original_4,
+    `holiday` as train_holiday_original_5,
+    `humidity` as train_humidity_original_6,
+    `registered` as train_registered_original_7,
+    `season` as train_season_original_8,
+    `temp` as train_temp_original_9,
+    `weather` as train_weather_original_10,
+    `windspeed` as train_windspeed_original_11,
+    `workingday` as train_workingday_original_12,
+    hour(timestamp(`datetime`)) as train_datetime_hourofday_13,
+    case when !isnull(at(`workingday`, 0)) over train_holiday_datetime_0s_5d_200 then count_where(`workingday`, `workingday` = at(`workingday`, 0)) over train_holiday_datetime_0s_5d_200 else null end as train_workingday_window_count_14,
+    case when !isnull(at(`workingday`, 0)) over train_holiday_datetime_0s_7d_100 then count_where(`workingday`, `workingday` = at(`workingday`, 0)) over train_holiday_datetime_0s_7d_100 else null end as train_workingday_window_count_15,
+    case when !isnull(at(`workingday`, 0)) over train_season_datetime_0s_5d_200 then count_where(`workingday`, `workingday` = at(`workingday`, 0)) over train_season_datetime_0s_5d_200 else null end as train_workingday_window_count_16,
+    case when !isnull(at(`workingday`, 0)) over train_season_datetime_0s_7d_100 then count_where(`workingday`, `workingday` = at(`workingday`, 0)) over train_season_datetime_0s_7d_100 else null end as train_workingday_window_count_17,
+    avg(`windspeed`) over train_humidity_datetime_0s_32d_100 as train_windspeed_window_avg_18,
+    avg(`atemp`) over train_humidity_datetime_0s_32d_100 as train_atemp_window_avg_19,
+    case when !isnull(at(`casual`, 0)) over train_registered_datetime_0s_32d_200 then count_where(`casual`, `casual` = at(`casual`, 0)) over train_registered_datetime_0s_32d_200 else null end as train_casual_window_count_20,
+    min(`temp`) over train_humidity_datetime_0s_10h_200 as train_temp_window_min_21,
+    avg(`windspeed`) over train_registered_datetime_0s_32d_100 as train_windspeed_window_avg_22,
+    avg(`windspeed`) over train_casual_datetime_0s_32d_200 as train_windspeed_window_avg_23,
+    avg(`atemp`) over train_casual_datetime_0s_32d_200 as train_atemp_window_avg_24,
+    avg(`temp`) over train_casual_datetime_0s_32d_200 as train_temp_window_avg_25,
+    max(`windspeed`) over train_humidity_datetime_0s_32d_200 as train_windspeed_window_max_26,
+    max(`atemp`) over train_humidity_datetime_0s_32d_200 as train_atemp_window_max_27,
+    avg(`temp`) over train_humidity_datetime_0s_32d_100 as train_temp_window_avg_28,
+    avg(`atemp`) over train_weather_datetime_0s_32d_100 as train_atemp_window_avg_29,
+    case when !isnull(at(`season`, 0)) over train_holiday_datetime_0s_7d_100 then count_where(`season`, `season` = at(`season`, 0)) over train_holiday_datetime_0s_7d_100 else null end as train_season_window_count_30
+from
+    `train`
+    window train_holiday_datetime_0s_5d_200 as (partition by `holiday` order by `datetime` rows_range between 5d open preceding and 0s preceding MAXSIZE 200),
+    train_holiday_datetime_0s_7d_100 as (partition by `holiday` order by `datetime` rows_range between 7d open preceding and 0s preceding MAXSIZE 100),
+    train_season_datetime_0s_5d_200 as (partition by `season` order by `datetime` rows_range between 5d open preceding and 0s preceding MAXSIZE 200),
+    train_season_datetime_0s_7d_100 as (partition by `season` order by `datetime` rows_range between 7d open preceding and 0s preceding MAXSIZE 100),
+    train_humidity_datetime_0s_32d_100 as (partition by `humidity` order by `datetime` rows_range between 32d open preceding and 0s preceding MAXSIZE 100),
+    train_registered_datetime_0s_32d_200 as (partition by `registered` order by `datetime` rows_range between 32d open preceding and 0s preceding MAXSIZE 200),
+    train_humidity_datetime_0s_10h_200 as (partition by `humidity` order by `datetime` rows_range between 10h open preceding and 0s preceding MAXSIZE 200),
+    train_registered_datetime_0s_32d_100 as (partition by `registered` order by `datetime` rows_range between 32d open preceding and 0s preceding MAXSIZE 100),
+    train_casual_datetime_0s_32d_200 as (partition by `casual` order by `datetime` rows_range between 32d open preceding and 0s preceding MAXSIZE 200),
+    train_humidity_datetime_0s_32d_200 as (partition by `humidity` order by `datetime` rows_range between 32d open preceding and 0s preceding MAXSIZE 200),
+    train_weather_datetime_0s_32d_100 as (partition by `weather` order by `datetime` rows_range between 32d open preceding and 0s preceding MAXSIZE 100);

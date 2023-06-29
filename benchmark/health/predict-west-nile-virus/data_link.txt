@@ -1,0 +1,3 @@
+https://dbgroup.cs.tsinghua.edu.cn/datasets/health/predict-west-nile-virus/spray.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/health/predict-west-nile-virus/train.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/health/predict-west-nile-virus/weather.csv

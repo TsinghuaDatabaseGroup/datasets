@@ -1,0 +1,1 @@
+https://dbgroup.cs.tsinghua.edu.cn/datasets/others/data-science-job-salaries/ds_salaries.csv

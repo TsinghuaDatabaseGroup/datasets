@@ -1,0 +1,4 @@
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/grupo-bimbo-inventory-demand/cliente_tabla.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/grupo-bimbo-inventory-demand/producto_tabla.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/grupo-bimbo-inventory-demand/town_state.csv
+https://dbgroup.cs.tsinghua.edu.cn/datasets/retails/grupo-bimbo-inventory-demand/train.csv
