@@ -10,11 +10,11 @@
 # finance
 |name|description|table number|column number|source|
 |---|---|---|---|---|
-|recruit-restaurant-visitor-forecasting|The browsing statistics of two restaurabt websites|8|28|[kaggle](https://www.kaggle.com/competitions/recruit-restaurant-visitor-forecasting)|
+|recruit-restaurant-visitor-forecasting|The browsing statistics of two restaurant websites|8|28|[kaggle](https://www.kaggle.com/competitions/recruit-restaurant-visitor-forecasting)|
 |santander-customer-satisfaction|Hundreds of anonymized features that could reflect whether  a customer is satisfied with their banking experience|1|372|[kaggle](https://www.kaggle.com/c/santander-customer-satisfaction)|
 |GiveMeSomeCredit|Credit features of 250,000 borrowers in banking scenario|1|13|[kaggle](https://www.kaggle.com/c/GiveMeSomeCredit)|
 |daily-financial-news|Daily financial news for over 6,000 stocks|2|12|[tianchi](https://tianchi.aliyun.com/dataset/dataDetail?dataId=94123)|
-|restaurant-revenue-prediction|Demographic, real estate, and commercial data for the investments of new rstaurant sites|2|85|[kaggle](https://www.kaggle.com/competitions/restaurant-revenue-prediction)|
+|restaurant-revenue-prediction|Demographic, real estate, and commercial data for the investments of new restaurant sites|2|85|[kaggle](https://www.kaggle.com/competitions/restaurant-revenue-prediction)|
 |homesite-quote-conversion|An anonymized database of information on customer and sales activity|2|597|[kaggle](https://www.kaggle.com/c/homesite-quote-conversion)|
 |allstate-claims-severity|Insurance claims for worry-free customer experiences|3|265|[kaggle](https://www.kaggle.com/c/allstate-claims-severity)|
 |tiantian|The price-related features constructed using the fund market data downloaded from TianTian Fund website|1|332|[tianchi](https://tianchi.aliyun.com/dataset/dataDetail?dataId=129763)|
@@ -28,7 +28,6 @@
 # health
 |name|description|table number|column number|source|
 |---|---|---|---|---|
-|Diabetes-Data|An automatic electronic recording device and paper records|0|0|[UCI_ML](https://archive.ics.uci.edu/ml/datasets/Diabetes)|
 |big-data-derby-2022|A wealth of data is now collected, including measures for heart rate, EKG, longitudinal movement, et al|3|24|[kaggle](https://www.kaggle.com/competitions/big-data-derby-2022)|
 |predict-west-nile-virus|Weather, location, testing, and spraying data|5|51|[kaggle](https://www.kaggle.com/competitions/predict-west-nile-virus)|
 |covid19-global-forecasting-week-2|Statistics of COVID19 cases in various locations across the world|1|6|[kaggle](https://www.kaggle.com/competitions/covid19-global-forecasting-week-2)|
@@ -49,7 +48,6 @@
 # meteorology
 |name|description|table number|column number|source|
 |---|---|---|---|---|
-|NASA-and-NOAA-Satellites-Solar-Wind|The data is composed of solar wind measurements collected from NASA's Advanced Composition Explorer (ACE) and NOAA's Deep Space Climate Observatory (DSCOVR)|0|0|[tianchi](https://tianchi.aliyun.com/dataset/89538)|
 |PRSA2017_Data_20130301-20170228||12|216||
 |AirQualityUCI|The responses of a gas multisensor device deployed on the field in an Italian city|1|1|[UCI_ML](https://archive.ics.uci.edu/ml/datasets/Air+Quality)|
 |historicalweatherdataforindiancities|Temperature data (Minimum, Average, Maximum) in degrees Centigrade and Precipitation data|7|34|[kaggle](https://www.kaggle.com/datasets/vanvalkenberg/historicalweatherdataforindiancities)|
@@ -83,7 +81,6 @@
 |talkingdata-mobile-user-demographics|                                                              |8|34|[kaggle](https://www.kaggle.com/c/talkingdata-mobile-user-demographics)|
 |sf-crime|incidents derived from SFPD Crime Incident Reporting system|3|57|[tianchi](https://tianchi.aliyun.com/dataset/42205)|
 |detecting-insults-in-social-commentary|Detect social spam, account hacking, bot attacks, and more.|1|5|[kaggle](https://www.kaggle.com/competitions/detecting-insults-in-social-commentary)|
-|GNFUV_USV_Dataset|Sets of mobile sensor readings data|0|0|[UCI_ML](https://archive.ics.uci.edu/dataset/452/gnfuv+unmanned+surface+vehicles+sensor+data)|
 |expedia-hotel-recommendations|Customer behavior|2|174|[kaggle](https://www.kaggle.com/competitions/expedia-hotel-recommendations)|
 |nfl-big-data-bowl-2022||7|113||
 |airbnb-recruiting-new-user-bookings|Users along with their demographics, web session records, and some summary statistics|6|51|[kaggle](https://www.kaggle.com/competitions/airbnb-recruiting-new-user-bookings)|
