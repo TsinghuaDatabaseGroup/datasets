@@ -47,19 +47,19 @@
 # meteorology
 |name|description|table number|column number|SQL|source|
 |---|---|---|---|---|---|
-|PRSA2017_Data_20130301-20170228||12|216||
+|PRSA2017_Data_20130301-20170228||12|216|![](https://img.shields.io/badge/-fe-Informational)||
 |AirQualityUCI|The responses of a gas multisensor device deployed on the field in an Italian city|1|1|![](https://img.shields.io/badge/-fe-Informational)|[UCI_ML](https://archive.ics.uci.edu/ml/datasets/Air+Quality)|
 |historicalweatherdataforindiancities|Temperature data (Minimum, Average, Maximum) in degrees Centigrade and Precipitation data|7|34|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/datasets/vanvalkenberg/historicalweatherdataforindiancities)|
 
 # retails
 |name|description|table number|column number|SQL|source|
 |---|---|---|---|---|---|
-|store-sales-time-series-forecasting|Dates, store and product information|5|22|[kaggle](https://www.kaggle.com/competitions/store-sales-time-series-forecasting)|
+|store-sales-time-series-forecasting|Dates, store and product information|5|22|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/competitions/store-sales-time-series-forecasting)|
 |coupon-purchase-prediction|A year of transactional data for 22,873 users on the site ponpare.jp|9|80|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/competitions/coupon-purchase-prediction)|
 |grupo-bimbo-inventory-demand|9 weeks of sales transactions in Mexico|6|28|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/c/grupo-bimbo-inventory-demand)|
 |rossmann-store-sales|Historical sales data for 1,115 Rossmann stores|2|19|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/c/rossmann-store-sales)|
 |favorita-grocery-sales-forecasting|Dates, store and item information, whether that item was being promoted, as well as the unit sales|6|26|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/c/favorita-grocery-sales-forecasting)|
-|walmart-recruiting-store-sales-forecasting||5|26||
+|walmart-recruiting-store-sales-forecasting||5|26|![](https://img.shields.io/badge/-fe-Informational)||
 |walmart-recruiting-sales-in-stormy-weather|Sales data for 111 products whose sales may be affected by the weather (such as milk, bread, umbrellas, etc.)|4|28|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/competitions/walmart-recruiting-sales-in-stormy-weather)|
 |ecommerce-customerssales-record|Order Statistics|1|41|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/datasets/digantdixit/ecommerce-customerssales-record)|
 |competitive-data-science-predict-future-sales|Daily historical sales data.|5|16|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales)|
@@ -81,12 +81,12 @@
 |sf-crime|incidents derived from SFPD Crime Incident Reporting system|3|57|![](https://img.shields.io/badge/-fe-Informational)|[tianchi](https://tianchi.aliyun.com/dataset/42205)|
 |detecting-insults-in-social-commentary|Detect social spam, account hacking, bot attacks, and more.|1|5|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/competitions/detecting-insults-in-social-commentary)|
 |expedia-hotel-recommendations|Customer behavior|2|174|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/competitions/expedia-hotel-recommendations)|
-|nfl-big-data-bowl-2022||7|113||
+|nfl-big-data-bowl-2022||7|113|![](https://img.shields.io/badge/-fe-Informational)||
 |airbnb-recruiting-new-user-bookings|Users along with their demographics, web session records, and some summary statistics|6|51|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/competitions/airbnb-recruiting-new-user-bookings)|
 |unimelb|Information on the investigators who are applying for the grant|1|251|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/competitions/unimelb)|
-|Ipin2016Dataset||8|314||
+|Ipin2016Dataset||8|314|![](https://img.shields.io/badge/-fe-Informational)||
 |dspp1|                                                              |4|19|![](https://img.shields.io/badge/-fe-Informational)||
-|lish-moa||4|1488||
+|lish-moa||4|1488|![](https://img.shields.io/badge/-fe-Informational)||
 |foursquare-location-matching||2|38|![](https://img.shields.io/badge/-fe-Informational)||
 |bike-sharing-demand|The duration of travel, departure location, arrival location, and time elapsed|1|12|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/competitions/bike-sharing-demand)|
 |web-traffic-time-series-forecasting||6|1363|![](https://img.shields.io/badge/-fe-Informational)||
