@@ -100,4 +100,4 @@
 |DontGetKicked|Car information|2|67|[kaggle](https://www.kaggle.com/c/DontGetKicked)|
 |cyclistic-bike-share-user-dataset-1-year|Cyclistic bikes|1|18|[kaggle](https://www.kaggle.com/datasets/koustavghosh149/cyclistic-bike-share-user-dataset-1-year)|
 |data-science-job-salaries||1|12||
-|Hybrid_Indoor_Positioning|                                                              | 1         |67|[UCI_ML]([UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/402/hybrid+indoor+positioning+dataset+from+wifi+rssi+bluetooth+and+magnetometer))|
+|Hybrid_Indoor_Positioning|                                                              | 1         |67|[UCI_ML](https://archive.ics.uci.edu/dataset/402/hybrid+indoor+positioning+dataset+from+wifi+rssi+bluetooth+and+magnetometer)|
