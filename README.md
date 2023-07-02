@@ -39,7 +39,7 @@
 
 
 # media
-|dataset|desc|table num|col num|source|
+|dataset|desc|table num|total col num|source|
 |---|---|---|---|---|
 |facebook-v-predicting-check-ins||3|13||
 |telstra-recruiting-network||7|18||
@@ -47,7 +47,7 @@
 |spotify-app-reviews-2022|Spotify reviews on Google Play Store|1|6|[kaggle](https://www.kaggle.com/datasets/mfaaris/spotify-app-reviews-2022)|
 
 # meteorology
-|dataset|desc|table num|col num|source|
+|dataset|desc|table num|total col num|source|
 |---|---|---|---|---|
 |NASA-and-NOAA-Satellites-Solar-Wind|The data is composed of solar wind measurements collected from NASA's Advanced Composition Explorer (ACE) and NOAA's Deep Space Climate Observatory (DSCOVR)|0|0|[tianchi](https://tianchi.aliyun.com/dataset/89538)|
 |PRSA2017_Data_20130301-20170228||12|216||
@@ -55,7 +55,7 @@
 |historicalweatherdataforindiancities|Temperature data (Minimum, Average, Maximum) in degrees Centigrade and Precipitation data|7|34|[kaggle](https://www.kaggle.com/datasets/vanvalkenberg/historicalweatherdataforindiancities)|
 
 # retails
-|dataset|desc|table num|col num|source|
+|dataset|desc|table num|total col num|source|
 |---|---|---|---|---|
 |store-sales-time-series-forecasting|Dates, store and product information|5|22|[kaggle](https://www.kaggle.com/competitions/store-sales-time-series-forecasting)|
 |coupon-purchase-prediction|A year of transactional data for 22,873 users on the site ponpare.jp|9|80|[kaggle](https://www.kaggle.com/competitions/coupon-purchase-prediction)|
@@ -70,7 +70,7 @@
 |m5-forecasting-uncertainty|Item sales at stores in various locations for two 28-day time periods|3|1965|[kaggle](https://www.kaggle.com/competitions/m5-forecasting-uncertainty)|
 
 # transport
-|dataset|desc|table num|col num|source|
+|dataset|desc|table num|total col num|source|
 |---|---|---|---|---|
 |pkdd-15-taxi-trip-time-prediction-ii||4|24|[kaggle](https://www.kaggle.com/c/pkdd-15-predict-taxi-service-trajectory-i)|
 |nyc-taxi-trip-duration|NYC Yellow Cab trip record data |3|22|[kaggle](https://www.kaggle.com/c/nyc-taxi-trip-duration)|
@@ -78,7 +78,7 @@
 |pkdd-15-predict-taxi-service-trajectory-i| |4|25|[kaggle](https://www.kaggle.com/competitions/pkdd-15-taxi-trip-time-prediction-ii)|
 
 # others
-|dataset|desc|table num|col num|source|
+|dataset|desc|table num|total col num|source|
 |---|---|---|---|---|
 |talkingdata-mobile-user-demographics|                                                              |8|34|[kaggle](https://www.kaggle.com/c/talkingdata-mobile-user-demographics)|
 |sf-crime|incidents derived from SFPD Crime Incident Reporting system|3|57|[tianchi](https://tianchi.aliyun.com/dataset/42205)|
