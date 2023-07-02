@@ -1,8 +1,8 @@
 # energy
 
-|name|description|table number|column number|source|
+|name|description|table number|column number|query|source|
 |---|---|---|---|---|
-|GEF2012-wind-forecasting|Hourly power generation at 7 wind farms|10|61|[kaggle](https://www.kaggle.com/competitions/GEF2012-wind-forecasting)|
+|GEF2012-wind-forecasting|Hourly power generation at 7 wind farms|10|61|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/competitions/GEF2012-wind-forecasting)|
 |electric-power-consumption|Per capita energy consumption in Morocco|1|9|[kaggle](https://www.kaggle.com/datasets/fedesoriano/electric-power-consumption)|
 |energydata_complete||2|59||
 |ashrae-energy-prediction|Energy usage from over 1,000 buildings over a three-year timeframe|5|32|[kaggle](https://www.kaggle.com/c/ashrae-energy-prediction)|
