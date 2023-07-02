@@ -1,6 +1,6 @@
 # energy
 
-|dataset|desc|table num|total col num|source|
+|name|description|table number|column number|source|
 |---|---|---|---|---|
 |GEF2012-wind-forecasting|Hourly power generation at 7 wind farms|10|61|[kaggle](https://www.kaggle.com/competitions/GEF2012-wind-forecasting)|
 |electric-power-consumption|Per capita energy consumption in Morocco|1|9|[kaggle](https://www.kaggle.com/datasets/fedesoriano/electric-power-consumption)|
@@ -8,7 +8,7 @@
 |ashrae-energy-prediction|Energy usage from over 1,000 buildings over a three-year timeframe|5|32|[kaggle](https://www.kaggle.com/c/ashrae-energy-prediction)|
 
 # finance
-|dataset|desc|table num|total col num|source|
+|name|description|table number|column number|source|
 |---|---|---|---|---|
 |recruit-restaurant-visitor-forecasting|The browsing statistics of two restaurabt websites|8|28|[kaggle](https://www.kaggle.com/competitions/recruit-restaurant-visitor-forecasting)|
 |santander-customer-satisfaction|Hundreds of anonymized features that could reflect whether  a customer is satisfied with their banking experience|1|372|[kaggle](https://www.kaggle.com/c/santander-customer-satisfaction)|
@@ -26,7 +26,7 @@
 |house-rent-prediction-dataset|Information on almost 4700+ Houses/Apartments/Flats Available for Rent|1|12|[kaggle](https://www.kaggle.com/datasets/iamsouravbanerjee/house-rent-prediction-dataset)|
 
 # health
-|dataset|desc|table num|total col num|source|
+|name|description|table number|column number|source|
 |---|---|---|---|---|
 |Diabetes-Data|An automatic electronic recording device and paper records|0|0|[UCI_ML](https://archive.ics.uci.edu/ml/datasets/Diabetes)|
 |big-data-derby-2022|A wealth of data is now collected, including measures for heart rate, EKG, longitudinal movement, et al|3|24|[kaggle](https://www.kaggle.com/competitions/big-data-derby-2022)|
@@ -39,7 +39,7 @@
 
 
 # media
-|dataset|desc|table num|total col num|source|
+|name|description|table number|column number|source|
 |---|---|---|---|---|
 |facebook-v-predicting-check-ins||3|13||
 |telstra-recruiting-network||7|18||
@@ -47,7 +47,7 @@
 |spotify-app-reviews-2022|Spotify reviews on Google Play Store|1|6|[kaggle](https://www.kaggle.com/datasets/mfaaris/spotify-app-reviews-2022)|
 
 # meteorology
-|dataset|desc|table num|total col num|source|
+|name|description|table number|column number|source|
 |---|---|---|---|---|
 |NASA-and-NOAA-Satellites-Solar-Wind|The data is composed of solar wind measurements collected from NASA's Advanced Composition Explorer (ACE) and NOAA's Deep Space Climate Observatory (DSCOVR)|0|0|[tianchi](https://tianchi.aliyun.com/dataset/89538)|
 |PRSA2017_Data_20130301-20170228||12|216||
@@ -55,7 +55,7 @@
 |historicalweatherdataforindiancities|Temperature data (Minimum, Average, Maximum) in degrees Centigrade and Precipitation data|7|34|[kaggle](https://www.kaggle.com/datasets/vanvalkenberg/historicalweatherdataforindiancities)|
 
 # retails
-|dataset|desc|table num|total col num|source|
+|name|description|table number|column number|source|
 |---|---|---|---|---|
 |store-sales-time-series-forecasting|Dates, store and product information|5|22|[kaggle](https://www.kaggle.com/competitions/store-sales-time-series-forecasting)|
 |coupon-purchase-prediction|A year of transactional data for 22,873 users on the site ponpare.jp|9|80|[kaggle](https://www.kaggle.com/competitions/coupon-purchase-prediction)|
@@ -70,7 +70,7 @@
 |m5-forecasting-uncertainty|Item sales at stores in various locations for two 28-day time periods|3|1965|[kaggle](https://www.kaggle.com/competitions/m5-forecasting-uncertainty)|
 
 # transport
-|dataset|desc|table num|total col num|source|
+|name|description|table number|column number|source|
 |---|---|---|---|---|
 |pkdd-15-taxi-trip-time-prediction-ii||4|24|[kaggle](https://www.kaggle.com/c/pkdd-15-predict-taxi-service-trajectory-i)|
 |nyc-taxi-trip-duration|NYC Yellow Cab trip record data |3|22|[kaggle](https://www.kaggle.com/c/nyc-taxi-trip-duration)|
@@ -78,7 +78,7 @@
 |pkdd-15-predict-taxi-service-trajectory-i| |4|25|[kaggle](https://www.kaggle.com/competitions/pkdd-15-taxi-trip-time-prediction-ii)|
 
 # others
-|dataset|desc|table num|total col num|source|
+|name|description|table number|column number|source|
 |---|---|---|---|---|
 |talkingdata-mobile-user-demographics|                                                              |8|34|[kaggle](https://www.kaggle.com/c/talkingdata-mobile-user-demographics)|
 |sf-crime|incidents derived from SFPD Crime Incident Reporting system|3|57|[tianchi](https://tianchi.aliyun.com/dataset/42205)|
