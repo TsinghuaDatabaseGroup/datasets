@@ -1,5 +1,5 @@
 # energy
-|name|description|table number|column number|query|source|
+|name|description|table number|column number|SQL|source|
 |---|---|---|---|---|---|
 |GEF2012-wind-forecasting|Hourly power generation at 7 wind farms|10|61|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/competitions/GEF2012-wind-forecasting)|
 |electric-power-consumption|Per capita energy consumption in Morocco|1|9|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/datasets/fedesoriano/electric-power-consumption)|
@@ -7,7 +7,7 @@
 |ashrae-energy-prediction|Energy usage from over 1,000 buildings over a three-year timeframe|5|32|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/c/ashrae-energy-prediction)|
 
 # finance
-|name|description|table number|column number|query|source|
+|name|description|table number|column number|SQL|source|
 |---|---|---|---|---|---|
 |recruit-restaurant-visitor-forecasting|The browsing statistics of two restaurant websites|8|28|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/competitions/recruit-restaurant-visitor-forecasting)|
 |santander-customer-satisfaction|Hundreds of anonymized features that could reflect whether  a customer is satisfied with their banking experience|1|372|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/c/santander-customer-satisfaction)|
@@ -25,7 +25,7 @@
 |house-rent-prediction-dataset|Information on almost 4700+ Houses/Apartments/Flats Available for Rent|1|12|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/datasets/iamsouravbanerjee/house-rent-prediction-dataset)|
 
 # health
-|name|description|table number|column number|query|source|
+|name|description|table number|column number|SQL|source|
 |---|---|---|---|---|---|
 |big-data-derby-2022|A wealth of data is now collected, including measures for heart rate, EKG, longitudinal movement, et al|3|24|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/competitions/big-data-derby-2022)|
 |predict-west-nile-virus|Weather, location, testing, and spraying data|5|51|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/competitions/predict-west-nile-virus)|
@@ -37,7 +37,7 @@
 
 
 # media
-|name|description|table number|column number|query|source|
+|name|description|table number|column number|SQL|source|
 |---|---|---|---|---|---|
 |facebook-v-predicting-check-ins||3|13|![](https://img.shields.io/badge/-fe-Informational)||
 |telstra-recruiting-network||7|18|![](https://img.shields.io/badge/-fe-Informational)||
@@ -45,14 +45,14 @@
 |spotify-app-reviews-2022|Spotify reviews on Google Play Store|1|6|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/datasets/mfaaris/spotify-app-reviews-2022)|
 
 # meteorology
-|name|description|table number|column number|query|source|
+|name|description|table number|column number|SQL|source|
 |---|---|---|---|---|---|
 |PRSA2017_Data_20130301-20170228||12|216||
 |AirQualityUCI|The responses of a gas multisensor device deployed on the field in an Italian city|1|1|![](https://img.shields.io/badge/-fe-Informational)|[UCI_ML](https://archive.ics.uci.edu/ml/datasets/Air+Quality)|
 |historicalweatherdataforindiancities|Temperature data (Minimum, Average, Maximum) in degrees Centigrade and Precipitation data|7|34|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/datasets/vanvalkenberg/historicalweatherdataforindiancities)|
 
 # retails
-|name|description|table number|column number|query|source|
+|name|description|table number|column number|SQL|source|
 |---|---|---|---|---|---|
 |store-sales-time-series-forecasting|Dates, store and product information|5|22|[kaggle](https://www.kaggle.com/competitions/store-sales-time-series-forecasting)|
 |coupon-purchase-prediction|A year of transactional data for 22,873 users on the site ponpare.jp|9|80|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/competitions/coupon-purchase-prediction)|
@@ -67,7 +67,7 @@
 |m5-forecasting-uncertainty|Item sales at stores in various locations for two 28-day time periods|3|1965|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/competitions/m5-forecasting-uncertainty)|
 
 # transport
-|name|description|table number|column number|query|source|
+|name|description|table number|column number|SQL|source|
 |---|---|---|---|---|---|
 |pkdd-15-taxi-trip-time-prediction-ii||4|24|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/c/pkdd-15-predict-taxi-service-trajectory-i)|
 |nyc-taxi-trip-duration|NYC Yellow Cab trip record data |3|22|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/c/nyc-taxi-trip-duration)|
@@ -75,7 +75,7 @@
 |pkdd-15-predict-taxi-service-trajectory-i| |4|25|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/competitions/pkdd-15-taxi-trip-time-prediction-ii)|
 
 # others
-|name|description|table number|column number|query|source|
+|name|description|table number|column number|SQL|source|
 |---|---|---|---|---|---|
 |talkingdata-mobile-user-demographics|                                                              |8|34|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/c/talkingdata-mobile-user-demographics)|
 |sf-crime|incidents derived from SFPD Crime Incident Reporting system|3|57|![](https://img.shields.io/badge/-fe-Informational)|[tianchi](https://tianchi.aliyun.com/dataset/42205)|
@@ -89,7 +89,7 @@
 |lish-moa||4|1488||
 |foursquare-location-matching||2|38|![](https://img.shields.io/badge/-fe-Informational)||
 |bike-sharing-demand|The duration of travel, departure location, arrival location, and time elapsed|1|12|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/competitions/bike-sharing-demand)|
-|web-traffic-time-series-forecasting||6|136|![](https://img.shields.io/badge/-fe-Informational)3||
+|web-traffic-time-series-forecasting||6|1363|![](https://img.shields.io/badge/-fe-Informational)||
 |web-traffic-time-series-forecasting-1||2|553|![](https://img.shields.io/badge/-fe-Informational)||
 |korean-baseball-pitching-data-1982-2021|Team pitching data from every season of KBO Baseball|1|34|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/datasets/mattop/korean-baseball-pitching-data-1982-2021)|
 |RSSI_dataset|RSSIs obtained on smartphones|2|12|![](https://img.shields.io/badge/-fe-Informational)|[UCI_ML](https://archive.ics.uci.edu/dataset/586/ble+rssi+dataset+for+indoor+localization)|
@@ -98,4 +98,4 @@
 |data-science-job-salaries||1|12|![](https://img.shields.io/badge/-fe-Informational)||
 |Hybrid_Indoor_Positioning|                                                              | 1         |67|![](https://img.shields.io/badge/-fe-Informational)|[UCI_ML](https://archive.ics.uci.edu/dataset/402/hybrid+indoor+positioning+dataset+from+wifi+rssi+bluetooth+and+magnetometer)|
 
-*![](https://img.shields.io/badge/-fe-Informational): feature extraction query*
+*![](https://img.shields.io/badge/-fe-Informational) feature extraction query*
