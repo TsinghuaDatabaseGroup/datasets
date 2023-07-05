@@ -1,5 +1,5 @@
 
-This repository offers a wide range of *datasets and queries* from various sources of open data or our own practices (with necessary desensitization).
+This repository offers a wide range of *datasets and queries* from open data or our own practices (with necessary desensitization).
 
 **Datasets** include *a large number* of typical domains, with diversified data characters (e.g., different column and tuple numbers).
 
