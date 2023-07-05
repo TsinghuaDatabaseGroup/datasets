@@ -1,3 +1,13 @@
+
+We will upload and update datasets and queries once in a while.
+
+These datasets and queries come from either open sources or real scenarios (under desensitization).
+
+*Datasets* cover <u>a large number</u> of typical domains, with diversified data characters (e.g., different column and tuple numbers).
+
+*Queries* are <u>real</u>  SQL statements that cover both AI and DB applications, such as feature extraction (*![](https://img.shields.io/badge/-fe-Informational)), transactions (come soon), and analytical queries (come soon).
+
+
 # energy
 |name|description|table number|column number|SQL|source|
 |---|---|---|---|---|---|
@@ -98,4 +108,3 @@
 |data-science-job-salaries||1|12|![](https://img.shields.io/badge/-fe-Informational)||
 |Hybrid_Indoor_Positioning|                                                              | 1         |67|![](https://img.shields.io/badge/-fe-Informational)|[UCI_ML](https://archive.ics.uci.edu/dataset/402/hybrid+indoor+positioning+dataset+from+wifi+rssi+bluetooth+and+magnetometer)|
 
-*![](https://img.shields.io/badge/-fe-Informational) feature extraction query*
