@@ -1,11 +1,9 @@
 
-We will upload and update datasets and queries once in a while.
+This repository offers a wide range of *datasets and queries* from various sources of open data or our own practices (with necessary desensitization).
 
-These datasets and queries come from either open sources or real scenarios (under desensitization).
+**Datasets** include *a large number* of typical domains, with diversified data characters (e.g., different column and tuple numbers).
 
-*Datasets* cover <u>a large number</u> of typical domains, with diversified data characters (e.g., different column and tuple numbers).
-
-*Queries* are <u>real</u>  SQL statements that cover both AI and DB applications, such as feature extraction (*![](https://img.shields.io/badge/-fe-Informational)), transactions (come soon), and analytical queries (come soon).
+**Queries** are *real*  SQL statements that support various functionalities, such as feature extraction (![](https://img.shields.io/badge/-fe-Informational)), transactions (coming soon), and analytical queries (coming soon).
 
 
 # energy
