@@ -1,9 +1,9 @@
 
 This repository offers a wide range of *datasets and queries* from open data or our own practices (with necessary desensitization).
 
-**Datasets** include *a large number* of typical domains, with diversified data characters (e.g., different column and tuple numbers).
+**Datasets** include *a large number* of typical domains, with diversified data characters (e.g., different column/tuple numbers).
 
-**Queries** are *real*  SQL statements that support various functionalities, such as feature extraction (![](https://img.shields.io/badge/-fe-Informational)), transactions (coming soon), and analytical queries (coming soon).
+**Queries** are *real*  SQL statements that support various functionalities, such as feature extraction (![](https://img.shields.io/badge/-fe-Informational)), transactions (![](https://img.shields.io/badge/-tp-informational)), and analytical queries (coming soon).
 
 
 # energy
@@ -72,7 +72,13 @@ This repository offers a wide range of *datasets and queries* from open data or 
 |ecommerce-customerssales-record|Order Statistics|1|41|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/datasets/digantdixit/ecommerce-customerssales-record)|
 |competitive-data-science-predict-future-sales|Daily historical sales data.|5|16|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales)|
 |m5-forecasting-accuracy|Item sales at stores in various locations for two 28-day time periods|3|1965|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/c/m5-forecasting-accuracy)|
-|m5-forecasting-uncertainty|Item sales at stores in various locations for two 28-day time periods|3|1965|![](https://img.shields.io/badge/-fe-Informational)|[kaggle](https://www.kaggle.com/competitions/m5-forecasting-uncertainty)|
+|goods|Public production introduction information|41|807|![](https://img.shields.io/badge/-fe-informational)||
+|material|Historical inventory statistics|79|1265|![](https://img.shields.io/badge/-tp-informational)||
+|orders|Historical order details|35|809|![](https://img.shields.io/badge/-tp-informational)||
+|shopmall|Comments and shelf status of goods|35|809|![](https://img.shields.io/badge/-tp-informational)||
+|transaction|Order details (query only)|50|1069|![](https://img.shields.io/badge/-tp-informational)||
+
+
 
 # transport
 |name|description|table number|column number|SQL|source|
